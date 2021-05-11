@@ -1,25 +1,82 @@
-Created by following this article : https://www.foxinfotech.in/2019/12/how-to-create-a-blog-using-github-pages-and-jekyll-with-a-few-clicks.html
+# Chirpy Starter
 
-# Mediumish - Jekyll Theme
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy)
+[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-[Live Demo](https://wowthemesnet.github.io/mediumish-theme-jekyll/) &nbsp; | &nbsp; [Download](https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip) &nbsp; | &nbsp; [Documentation](https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/) &nbsp; | &nbsp; [Buy me a coffee](https://www.wowthemes.net/donate/)
+The startup template for [**Jekyll Theme Chirpy**][chirpy].
 
-![mediumish](assets/images/mediumish-jekyll-template.png)
+When installing the **Chirpy** theme through [RubyGems][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. (You can find the gem files by using the command `bundle info --path jekyll-theme-chirpy`). To fully use all the features of **Chirpy**, you need to copy the other critical files/directories from the theme's gem to your Jekyll site.
 
+The key files/directories to run/build the **Chirpy** theme are as follows:
 
-### Copyright
+```shell
+.
+├── _data
+├── _plugins
+├── _tabs
+├── _config.yml
+└──  index.html
+```
 
-Copyright (C) 2019 Sal, https://www.wowthemes.net
+So we've extracted all the **Chirpy** gem necessary content here to help you get started quickly.
 
-**Mediumish for Jekyll** is designed and developed by [Sal](https://www.wowthemes.net) and it is *free* under MIT license. 
+## Installation
 
-<a href="https://www.wowthemes.net/donate/" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+[Use this template][usetemplate] to generate a new repository, and then execute:
 
-### Contribute
+[usetemplate]: https://github.com/cotes2020/chirpy-starter/generate
 
-1. [Fork the repo](https://github.com/wowthemesnet/mediumish-theme-jekyll).
-2. Clone a copy of your fork on your local
-3. Create a branch off of master and give it a meaningful name (e.g. my-new-mediumish-feature).
-4. Make necessary changes, commit, push and open a pull request on GitHub.
+```
+$ bundle
+```
 
-Thank you!
+## Usage
+
+### Customing Stylesheet
+
+Creare a new file `/assets/css/style.scss` in your Jekyll site.
+
+And then add the following content:
+
+```scss
+---
+---
+
+@import "{{ site.theme }}";
+
+// add your style below
+```
+
+### Changing the Number of Tabs
+
+When adding or deleting files in the `_tabs` folder, you need to complete the section [Customing Stylesheet](#customing-stylesheet) first, and then add a new line before `@import`:
+
+```scss
+$tab-count: {{ site.tabs | size | plus: 1 }};
+```
+
+### Publishing to GitHub Pages
+
+See the [deployment instructions](https://github.com/cotes2020/jekyll-theme-chirpy#deployment) of `jekyll-theme-chirpy`.
+
+### Updating
+
+Please note that files and directories in this project may change as the [`jekyll-theme-chirpy`][chirpy] is updated. When updating, please ensure that the file directory structure of your Jekyll site is the same as that of this project.
+
+And then execute:
+
+```console
+$ bundle update jekyll-theme-chirpy
+```
+
+## Documentation
+
+See the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+
+## License
+
+This work is published under [MIT][mit] License.
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
