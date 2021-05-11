@@ -24,7 +24,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
-          # bundler-cache: true
+          bundler-cache: true
 
       - name: Check baseurl
         run: |
@@ -37,7 +37,6 @@ jobs:
         env:
           JEKYLL_ENV: production
         run: |
-          bundle install
           bundle exec jekyll b -d "_site$BASE_URL"
 
       - name: Test Site
