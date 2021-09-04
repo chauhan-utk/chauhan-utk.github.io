@@ -1,0 +1,113 @@
+{
+  "main": {
+    "id": "402bffa3b1beda25",
+    "type": "split",
+    "children": [
+      {
+        "id": "59dbea6207b360d9",
+        "type": "split",
+        "children": [
+          {
+            "id": "de071a4a3294f787",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2021-05-13-why-a-blog.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "f76162123a2fef9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2021-05-13-why-a-blog.md",
+                "mode": "preview"
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d870d4114ed07637",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4af9770bae0597a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "992b6c0c4d026004",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ef1609e3d7fbec7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0db3f5ab56da44e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6fda7eb2c327b8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef4cc367a4f66396",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2021-05-13-why-a-blog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "de071a4a3294f787",
+  "lastOpenFiles": [
+    "_posts/2021-05-13-why-a-blog.md",
+    "_posts/Untitled.md",
+    "_posts/2021-05-11-hello-world.md"
+  ]
+}
