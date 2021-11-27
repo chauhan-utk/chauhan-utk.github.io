@@ -1,7 +1,7 @@
 ---
 title: Text and Typography
 author: Utkarsh Chauhan
-date: 2021-05-11 23:33:00 +0530
+date: 2021-05-11
 categories: [Blogging, Demo]
 tags: [typography]
 math: true

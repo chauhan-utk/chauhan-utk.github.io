@@ -1,7 +1,7 @@
 ---
 title: git-lfs Basic Repo Setup
 author: Utkarsh Chauhan
-date: 2021-10-25 00:00:00 +0530
+date: 2021-10-25 14:30:00 +5:30
 categories: [tutorials]
 tags: [tools, programming]
 mermaid: true
@@ -11,7 +11,7 @@ mermaid: true
 
 `git` is awesome for managing plain text code files. There are numerous workflows with `git` - not even with just programming or code development, but for various other fields where version tracking is important. For example, this blog is managed in `git` itself!
 
-### Why need `git-lfs` ?
+## Why need `git-lfs` ?
 
 While `git` works great for plain text version tracking (thanks to line by line file diff), it won't be so great for binary files. The prime reason being - git tracks every change ever made to a file! That means, if you are modifying a text file a 1,000 times (and committing changes, of course) then git will have some internal mechanism (the git magic) to re-produce the same exact version related to every commit!
 
