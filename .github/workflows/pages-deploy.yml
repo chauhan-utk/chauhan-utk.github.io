@@ -2,10 +2,6 @@ name: 'Automatic build'
 on:
   push:
     branches:
-<<<<<<< HEAD
-      - master
-=======
->>>>>>> 66a784cb717872dba77830fab476c39013a80867
       - main
     paths-ignore:
       - .gitignore
